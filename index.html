@@ -25,62 +25,112 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
   <script src="foto/fancybox.min.js"></script>
   <link rel="stylesheet" href="foto/style.css" media="screen" />
+
 </head>
 
 <body class="">
-   <div class="container-fluid fixed-top ms-auto">
+
+<header>
+  <img
+  src="foto/IMG-20220509-WA0025.jpg"
+  class="img-responsive"
+  style="width: 100%; height: 610px"
+/>
+<div class="hero-text mt-5 pt-5 style:font-size=60px">
+  <h1>VIKTOR LEVCHENKO</h1>
+  <h3><span
+    class="typed"
+    data-typed-items="Artysta-plastyk, Wykładowca sztuki, Restaurator, Konserwator dzieł sztuki, Portretysta"
+  ></span></h3>
+</div>
+
+
+<div class="container-fluid fixed-top ms-auto">
     <h1 class="navbar1 font-monospace" href="#">VIKTOR LEVCHENKO</h1>
     <h1 class="navbar2 font-monospace" href="#">ARTYSTA PLASTYK</h1>
+</div> 
+<!-- Nawigacja -->
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top ">
+  <div class="container-fluid">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Strona główna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">O Artyście</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./kontakt.html">Kontakt</a>
+        </li>
+      </ul>
   </div>
-
-  <!-- Nawigacja -->
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top ">
-    </div>
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="./index.html" role="button" aria-expanded="false"
-              aria-controls="collapseExample">Strona główna</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">O Artyście</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./kontakt.html">Kontakt</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </nav>
+  </div>
+</nav> 
 
 
-    <!-- ======= foto ======= -->
-    <div
-      id="hero"
-      class="hero route bg-image"
-      style="background-image: url(foto/IMG-20220509-WA0025)"
-    >
-      <div class="overlay-itro"></div>
-      <div class="hero-content display-table">
-        <div class="table-cell">
-          <div class="container">
-            <h1 class="hero-title mb-4">VIKTOR LEVCHENKO</h1>
-            <p class="hero-subtitle">
-              <span
-                class="typed"
-                data-typed-items="Programista, Projektant,Junior Web Developer, Po godzinach dumny tata"
-              ></span>
-            </p>
+
+
+<!-- ======= WYLICZENIA ======= -->
+    <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-5 col-lg-4">
+            <div class="counter-box pt-lg-5 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"
+                  >
+                </span>
+              </div>
+              <div class="counter-num">
+                <p
+                  data-purecounter-start="0"
+                  data-purecounter-end="30"
+                  data-purecounter-duration="1"
+                  class="counter purecounter"
+                ></p>
+                <span class="counter-text">DOŚWIADCZENIE JAKO NAUCZYCIEL SZTUKI</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-4">
+            <div class="counter-box pt-lg-5 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"></span>
+              </div>
+              <div class="counter-num">
+                <p
+                  data-purecounter-start="0"
+                  data-purecounter-end="5000"
+                  data-purecounter-duration="1"
+                  data-purecounter-step="200"
+                  class="counter purecounter"
+                ></p>
+                <span class="counter-text">STWORZONYCH OBRAZÓW</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-4">
+            <div class="counter-box pt-lg-5 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"></span>
+              </div>
+              <div class="counter-num">
+                <p
+                  data-purecounter-start="0"
+                  data-purecounter-end="40"
+                  data-purecounter-duration="1"
+                  class="counter purecounter"
+                ></p>
+                <span class="counter-text"
+                  >JAKO ARTYSTA / PLASTYK</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  <style></style>
+    
 
-
-  <header>
     <div class="opis_1 pt-4 text-center font-monospace">
       <p>Większość obrazów dostępna jest na sprzedaż.</p>
       <p>Poniższa galeria przedstawia twórczość od 1990 roku do dziś.</p>
@@ -352,5 +402,10 @@
   </footer>
 
 </body>
-
+<script src="dodatki/js/purecounter.js"></script>
+<script src="dodatki/js/bootstrap.bundle.min.js"></script>
+<script src="dodatki/js/glightbox.min.js"></script>
+<script src="dodatki/js/swiper-bundle.min.js"></script>
+<script src="dodatki/js/typed.min.js"></script>
+<script src="DODATKI/js/main.js"></script>
 </html>
