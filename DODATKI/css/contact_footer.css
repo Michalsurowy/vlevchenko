@@ -1,0 +1,40 @@
+@media (min-width: 767px) {
+  .contact-mf .box-pl2 {
+    margin-top: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  background: #202020;
+}
+footer .copyright {
+  margin-bottom: 0.3rem;
+}
+footer .credits {
+  margin-bottom: 0;
+}
+footer .credits a {
+  color: #fff;
+}
