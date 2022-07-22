@@ -269,6 +269,7 @@ img.zoom {
 .counter-box {
   color: #fff;
   text-align: center;
+  margin-bottom: 1rem;
 }
 @media (min-width: 577px) {
   .counter-box {
