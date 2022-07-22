@@ -1,0 +1,67 @@
+.about-mf .box-shadow-full {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+@media (min-width: 767px) {
+  .about-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.skill-mf p {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.skill-mf span {
+  color: #4e4e4e;
+  font-weight: bold;
+  font-size: 12px;
+}
+.skill-mf .progress {
+  background-color: #9da3a8;
+  border-radius: 0;
+  height: 0.5rem;
+}
+.skill-mf .progress .progress-bar {
+  height: 0.5rem;
+  background-color: #559cad;
+}
+
+.counter-box {
+  color: #fff;
+  text-align: center;
+}
+@media (min-width: 577px) {
+  .counter-box {
+    margin-bottom: 1.8rem;
+  }
+}
+
+.counter-ico {
+  margin-bottom: 1rem;
+}
+.counter-ico .ico-circle {
+  height: 60px;
+  width: 60px;
+  line-height: 1.5;
+  box-shadow: 0 0 0 10px;
+  color: #559cad;
+  border-radius: 50%;
+}
+
+.counter-num .counter {
+  font-size: 3rem;
+}
+.about-me {
+  text-align: justify;
+}
